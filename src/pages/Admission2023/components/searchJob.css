@@ -1,0 +1,101 @@
+.Search-job {
+  margin-left: 2rem;
+  width: 66.25rem;
+  margin: 0;
+  position: absolute;
+  margin-top: 30rem;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 2px 4px 32px rgba(1, 70, 177, 0.08);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 1.563rem 1.5rem 1.625rem 2rem;
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: 1.25rem;
+  z-index: 4;
+}
+.Search-job-container {
+  width: 41.938rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 5rem;
+  max-width: 100%;
+}
+.Search-job-container-left {
+  height: 2.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0rem 0rem 0.75rem;
+  box-sizing: border-box;
+}
+.Search-job-container-middle {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  min-width: 19rem;
+  max-width: 100%;
+}
+.Search-job-container-middle-icons {
+  height: 3.063rem;
+  width: 7rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1.25rem;
+}
+.Search-job-container-middle-button {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0rem 0rem 0.25rem;
+  box-sizing: border-box;
+  min-width: 6.5rem;
+}
+
+@media (max-width: 500px) {
+  .Search-job {
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    gap: 0.5;
+    margin-top: 18rem;
+  }
+  .Search-job-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  .Search-job-container-left {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Search-job-container-middle {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Search-job-container-middle-icons {
+    display: none;
+  }
+  .Search-job-container-middle-button {
+    display: none;
+  }
+}

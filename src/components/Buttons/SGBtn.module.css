@@ -1,0 +1,16 @@
+.SGBtn button{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgb(123, 144, 255);
+    font-weight: 900;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    border-color: rgb(123, 144, 255);
+    width: 10rem;
+}
+.SGBtn{
+    margin: 1rem;
+}

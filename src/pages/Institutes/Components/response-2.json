@@ -1,0 +1,61 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "attributes": {
+                "Rating": 9,
+                "Features": "asdadgfsdgs",
+                "Info": "jkhjkhkj",
+                "createdAt": "2023-12-12T13:19:44.238Z",
+                "updatedAt": "2024-02-09T11:07:34.397Z",
+                "publishedAt": "2023-12-12T13:19:46.356Z",
+                "Y_N": [
+                    "No",
+                    "Yes ",
+                    "Both"
+                ],
+                "Institute_Name": {
+                    "data": null
+                },
+                "Course_Name": [
+                    {
+                        "id": 1,
+                        "Course_Fees": "54353",
+                        "Type_of_Program": "Online",
+                        "Course_Duration": "80 hours"
+                    },
+                    {
+                        "id": 2,
+                        "Course_Fees": "56846",
+                        "Type_of_Program": "Offline",
+                        "Course_Duration": "70 Hours"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "attributes": {
+                "Rating": 7,
+                "Features": "dsfsjhkjkjklbnmhu",
+                "Info": "sad",
+                "createdAt": "2023-12-12T13:19:59.389Z",
+                "updatedAt": "2023-12-12T14:04:11.125Z",
+                "publishedAt": "2023-12-12T13:20:01.246Z",
+                "Y_N": null,
+                "Institute_Name": {
+                    "data": null
+                },
+                "Course_Name": []
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 2
+        }
+    }
+}

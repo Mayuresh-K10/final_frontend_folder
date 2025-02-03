@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif !important;
+  scroll-behavior: smooth;
+}
+
+.active {
+  color: blue; /* Change color according to your preference */
+  font-weight: bold; /* Highlight the active link */
+  text-decoration: underline;
+}

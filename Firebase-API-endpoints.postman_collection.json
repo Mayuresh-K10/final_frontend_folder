@@ -1,0 +1,887 @@
+{
+	"info": {
+		"_postman_id": "db5f2079-188e-49c4-a3ef-32953ff1912e",
+		"name": "Firebase API endpoints",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34397575"
+	},
+	"item": [
+		{
+			"name": "Get Data course_type filter",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/filter/?course_type=Part Time",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"filter",
+						""
+					],
+					"query": [
+						{
+							"key": "course_type",
+							"value": "Part Time"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Data course_duration filter",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/filter/?course_duration=7 Years",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"filter",
+						""
+					],
+					"query": [
+						{
+							"key": "course_duration",
+							"value": "7 Years"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Data couse_name filter",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/filter/?course_name=Master of Business Administration [MBA]",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"filter",
+						""
+					],
+					"query": [
+						{
+							"key": "course_name",
+							"value": "Master of Business Administration [MBA]"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Data college type(IIT,NIT,IIM,IIIT)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/filter/?type=iit&course_duration=2 Years",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"filter",
+						""
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "iit"
+						},
+						{
+							"key": "course_duration",
+							"value": "2 Years"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Data Combination test",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/filter/?course_name=Bachelor of Technology [B.Tech]&course_type=Part Time",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"filter",
+						""
+					],
+					"query": [
+						{
+							"key": "course_name",
+							"value": "Bachelor of Technology [B.Tech]"
+						},
+						{
+							"key": "course_type",
+							"value": "Part Time"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get institute city filter",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/institute_filter?institute_city=New Delhi",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"institute_filter"
+					],
+					"query": [
+						{
+							"key": "institute_city",
+							"value": "Mumbai",
+							"disabled": true
+						},
+						{
+							"key": "institute_city",
+							"value": "New Delhi"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get institute rating filter",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/institute_filter?institute_rating=7&institute_rating=7.1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"institute_filter"
+					],
+					"query": [
+						{
+							"key": "institute_rating",
+							"value": "7"
+						},
+						{
+							"key": "institute_rating",
+							"value": "7.1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get institute type filter",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/institute_filter/?institute_type=Training&institute_type=Coaching",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"institute_filter",
+						""
+					],
+					"query": [
+						{
+							"key": "institute_type",
+							"value": "Training"
+						},
+						{
+							"key": "institute_type",
+							"value": "Coaching"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get institute course name filter",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/institute_filter/?course_name=CA Foundation&course_name=JEE&page_size=25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"institute_filter",
+						""
+					],
+					"query": [
+						{
+							"key": "course_name",
+							"value": "CA Foundation"
+						},
+						{
+							"key": "course_name",
+							"value": "JEE"
+						},
+						{
+							"key": "page_size",
+							"value": "25"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get institute course fee filter",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/institute_filter/?course_fees=15000&course_fees=17000&institute_city=Ranchi",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"institute_filter",
+						""
+					],
+					"query": [
+						{
+							"key": "course_fees",
+							"value": "15000"
+						},
+						{
+							"key": "course_fees",
+							"value": "17000"
+						},
+						{
+							"key": "institute_city",
+							"value": "Ranchi"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get institute program type filter",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/institute_filter/?program_type=Regular Classroom Programs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"institute_filter",
+						""
+					],
+					"query": [
+						{
+							"key": "program_type",
+							"value": "Regular Classroom Programs"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get institute name filter",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/institute_filter/?institute_name=Uniq Technologies&institute_name=RST Forum",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"institute_filter",
+						""
+					],
+					"query": [
+						{
+							"key": "institute_name",
+							"value": "Uniq Technologies"
+						},
+						{
+							"key": "institute_name",
+							"value": "RST Forum"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get institute center filter",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/institute_filter/?institute_centre=Patna",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"institute_filter",
+						""
+					],
+					"query": [
+						{
+							"key": "institute_centre",
+							"value": "Patna"
+						},
+						{
+							"key": "institute_centre",
+							"value": "Ranchi",
+							"disabled": true
+						},
+						{
+							"key": "program_type",
+							"value": "Regular Classroom Programs",
+							"disabled": true
+						},
+						{
+							"key": "course_fees",
+							"value": "15000",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get study abroad country and city filter",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/study_abroad_filter/?country=germany&city=berlin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"study_abroad_filter",
+						""
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "germany"
+						},
+						{
+							"key": "city",
+							"value": "berlin"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get study abroad rating filter",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/study_abroad_filter/?rating=9&rating=9.1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"study_abroad_filter",
+						""
+					],
+					"query": [
+						{
+							"key": "rating",
+							"value": "9"
+						},
+						{
+							"key": "rating",
+							"value": "9.1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get study abroad language filter",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/study_abroad_filter/?course_language=italian",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"study_abroad_filter",
+						""
+					],
+					"query": [
+						{
+							"key": "course_language",
+							"value": "french",
+							"disabled": true
+						},
+						{
+							"key": "course_language",
+							"value": "italian"
+						},
+						{
+							"key": "page_size",
+							"value": "25",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get study abroad course_type filter",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/study_abroad_filter/?course_type=full time",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"study_abroad_filter",
+						""
+					],
+					"query": [
+						{
+							"key": "course_type",
+							"value": "full time"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get study abroad course_duration filter",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://195.35.22.140:8000/study_abroad_filter/?course_duration=3 years&course_duration=2 years",
+					"protocol": "http",
+					"host": [
+						"195",
+						"35",
+						"22",
+						"140"
+					],
+					"port": "8000",
+					"path": [
+						"study_abroad_filter",
+						""
+					],
+					"query": [
+						{
+							"key": "course_duration",
+							"value": "3 years"
+						},
+						{
+							"key": "course_duration",
+							"value": "2 years"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get study abroad course_mode filter",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/study_abroad_filter/?course_mode=On Campus",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"study_abroad_filter",
+						""
+					],
+					"query": [
+						{
+							"key": "course_mode",
+							"value": "On Campus"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get study abroad course filter",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/study_abroad_filter/?courses=Certificate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"study_abroad_filter",
+						""
+					],
+					"query": [
+						{
+							"key": "courses",
+							"value": "Certificate"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get study abroad fee filter",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/study_abroad_filter/?courses=Certificate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"study_abroad_filter",
+						""
+					],
+					"query": [
+						{
+							"key": "courses",
+							"value": "Certificate"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

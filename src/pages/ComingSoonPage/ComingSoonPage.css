@@ -1,0 +1,66 @@
+/* ComingSoonPage.css */
+
+
+.animated-number {
+    position: fixed;
+    overflow: hidden;
+    animation: slide-up 0.5s forwards;
+  }
+  
+  @keyframes slide-up {
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+  }
+
+  .bungee-spice-regular {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+  .mainStyle {
+    font-family: "Bungee Spice", sans-serif !important;
+  }
+  
+  
+.separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Adjust width as needed */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .separateSpan {
+    position: relative;
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 8px;
+  }
+  
+  .separateSpan::before,
+  .separateSpan::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 100px; /* Adjust width based on form width */
+    border-bottom: 1px solid gray; /* Adjust line style */
+  }
+  
+  .separateSpan::before {
+    left: -5px;
+    transform: translateX(-100%);
+  }
+  
+  .separateSpan::after {
+    right: -5px;
+    transform: translateX(100%);
+  }
+  

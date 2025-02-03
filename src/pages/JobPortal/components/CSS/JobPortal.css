@@ -1,0 +1,202 @@
+.switchbtn{
+    height: 1.513rem;
+     width: 3.238rem;
+      position: relative;
+     min-height: 1.5rem;
+}
+
+.grpprofile{
+    width: 5.375rem;
+     height: 2rem; 
+     position: relative;
+}
+
+.plusicon{
+    width: 1rem;
+    height: 1rem;
+     position: relative; overflow: hidden;
+     flex-shrink: 0;
+     z-index: 1;
+}
+
+.waveimg{
+    align-self: stretch;
+    height: 1.125rem;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.laptopgirl{
+    position: absolute;
+     height: 100%;
+     top: 0rem;
+     bottom: 0rem;
+     left: 0rem; 
+     max-height: 100%;           
+    width: auto;
+    object-fit: cover;
+    z-index: 2;
+}
+
+.jobman{
+    position: "absolute";
+    height: 100%;
+    top: 0rem;
+    bottom: 0rem;
+    left: 0rem;
+    width:auto;
+    object-fit: cover;
+}
+
+.starone{
+    position: absolute;
+    top: 3.125rem;
+    left: 19.063rem;
+    width: 2.25rem;
+    height: 2.25rem;
+    z-index: 1;
+}
+
+.qualityjob{
+    width:21.8px;
+     height:24px;
+}
+
+.companylogo{
+    width:60px;
+    height:60px;
+}
+
+.positiondev{
+    font-size: 20px;
+}
+
+.jobcategorys{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.jobcategorys:focus:hover:active {
+    text-decoration: underline;
+}
+
+.applybtn {
+    margin-top: 1px; 
+    margin-left: 0;
+    width:80px;
+    height:40px;
+    font-size:16px;
+    background-color: #7f29cf;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+/* .applybtn:hover{
+    background-color: #fba862;
+} */
+
+.ladywithlaptop{
+    position: absolute;
+    top: 5.5rem;
+    left: 48rem;
+    width: 43.288rem;
+    height: 29.975rem;
+    object-fit:cover;
+    z-index: 2;
+}
+
+.logoc{
+    margin-right: 15px;
+}
+
+@media (max-width:600px){
+   
+    .logoc{
+        margin-left: -60px;
+    }
+    .btn-group {
+        flex-direction: column; 
+        align-items: flex-end;
+        margin-left: 30px;
+      }
+    
+      .applybtn {
+        margin-top: 10px; 
+        margin-left: 0;
+        width:40px;
+        height: 20px;
+        font-size:10px;
+      }
+    .jobcategorys{
+        font-size: 11px;
+    }
+    .positiondev{
+        font-size: 11px;
+        
+    }
+    .companylogo{
+        width: 40px;
+        height: 40px;
+    }
+    .qualityjob{
+        width: 14px;
+        height: 16px;
+    }
+    .starone{
+        left: 2rem;
+        top:12rem;
+    }
+    .waveimg{
+        margin-left: 120%;
+    }
+    .laptopgirl{
+        height: 25%;
+        width: 25%;
+        top:10rem;
+        margin-left: 75%;
+    }
+    .jobman{
+        height: 500%;
+        width: 500%;
+        object-fit: contain;
+        margin-top:20px;
+        margin-left: 20px;
+    }
+    .ladywithlaptop{
+       margin-top: 20rem;
+        margin-left: -37rem;
+        width: 40%;
+        height: 40%;
+        position: absolute; 
+        display: none;
+    }
+    .wavee{
+        display: none;
+    }
+}
+
+
+@media (max-width:1280px){
+    .waveimg{
+        width: 70%;
+    }
+    .laptopgirl{
+        height: 70%;
+        width: 70%;
+        top:5rem;
+    }
+    .jobman{
+        height: 500%;
+        width: 500%;
+        object-fit: contain;
+        margin-top:20px;
+        margin-left: 20px;
+    }
+    
+}
